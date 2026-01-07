@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Fake Vulnerable Web</title>
+  <title>Secret Test</title>
 </head>
 <body>
-    <h1>Fake Vulnerable Web</h1>
-    <p>Intentionally exposed fake secrets for security testing.</p>
 
-    <script src="config.js"></script>
-    <script src="auth.js"></script>
-    <script src="app.js"></script>
+<script>
+AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE";
+AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
+GITHUB_TOKEN = "ghp_1234567890abcdef1234567890abcdef";
+STRIPE_LIVE_KEY = "sk_live_51NTESTabcdefghijklmnopqrstuvwxyz";
+SLACK_BOT_TOKEN = "xoxb-123456789012-123456789012-abcdefghijklmn";
+JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.payload.signature";
+DATABASE_URL = "postgres://admin:password@localhost:5432/appdb";
+SMTP_PASSWORD = "EmailPass123!";
+</script>
+
 </body>
 </html>
